@@ -12,7 +12,7 @@ PaginatedList list = new PaginatedList(totalItems, currentPage, pageSize);
 ## Taghelper
 
 ```csharp
-@addTagHelper *, LH.Core.Mvc.Pagination
+@addTagHelper *, LH.Net.Mvc.Pagination
 ```
 
 Once the tag helper has been imported, it can be added to the required view and only requires the current page and total pages to generate the required HTML.
